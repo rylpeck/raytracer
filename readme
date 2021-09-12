@@ -1,0 +1,11 @@
+1. To compile simply open a terminal and run Make
+
+2. To run, do ./render then <drivername> and <outputfile>
+eg: ./render driver5.txt output.ppm
+
+
+A note is that the program defaults to 8 threads, to change this change the NUM _THREADS defined on top of the program
+
+custom driver is known as driver5.txt, will run as displayed above, resolution is at 512 x 512. 
+
+the included output is also at 512 x 512

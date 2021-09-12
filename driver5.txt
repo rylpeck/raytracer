@@ -1,0 +1,135 @@
+camera 50 350 0 0 0 0 0 1 0 -12
+bounds -2 2 -2 2
+res 512 512
+
+recursionlevel 5
+
+ambient 0.7 0.7 0.7
+
+light 20 0 50 1 0.65 0.65 0.65
+
+light 90 98 90 1 0.75 0.75 0.75
+
+light 90 98 -90 1 0.75 0.75 0.75
+
+light -20 0 50 1 0.9 0.9 0.9
+
+light 50 350 60 1 0.2 0.2 0.2
+
+
+
+trans clear
+
+trans scale 0.2 0.2 0.2
+
+trans move -1.5 -10 -3
+
+trans rota 0.0 1.0 0.0 90
+
+trans rota 0.0 0.0 1.0 140
+cutoffAngle 0
+
+# load pika.obj
+load squir.obj
+
+trans clear
+
+trans scale 0.2 0.2 0.2
+
+trans move 7 0 -3
+
+trans rota 0.0 1.0 0.0 90
+
+trans rota 0.0 0.0 1.0 140
+
+cutoffAngle 0
+
+
+# load pika2.obj
+load bulby.obj
+
+trans clear
+
+trans scale 0.2 0.2 0.2
+
+trans move -10 0 -3
+
+trans rota 0.0 1.0 0.0 90
+
+trans rota 0.0 0.0 1.0 140
+
+# load pika3.obj
+load char.obj
+
+trans clear
+
+# trans scale 0.2 0.2 0.2
+
+trans move -7 14 -3
+
+trans rota 0.0 1.0 0.0 90
+
+trans rota 0.0 0.0 1.0 140
+
+load pika4.obj
+
+trans clear
+
+# trans move -7 10 0
+trans move 0 0 -0.2
+
+trans scale 120 120 120
+
+trans rota 0.0 1.0 0.0 90
+
+trans rota 0.0 0.0 1.0 140
+
+cutoffAngle 0
+
+load checkerGray.obj
+
+trans clear
+
+trans move 0 10 10
+
+# trans move 0 0 -0.2
+
+trans scale 4 4 4
+
+trans rota 0.0 1.0 0.0 90
+
+trans rota 0.0 0.0 1.0 140
+
+cutoffAngle 45
+
+load normSphere.obj
+
+
+
+
+sphere -12 11 0 4 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2
+
+
+sphere -3 42 -23 4 0.1 0.1 0.1 0.9 0.1 0.1 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+sphere -42 16 -45 4 0.1 0.1 0.1 0.1 0.9 0.1 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+sphere -14 22 -50 4 0.1 0.1 0.1 0.1 0.1 0.9 0 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+sphere -26 34 -34 4 0.1 0.1 0.1 0.9 0.1 0.1 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+
+
+sphere -7 10 24 4 0.1 0.1 0.1 0.1 0.9 0.1 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+sphere -26 10 45 4 0.1 0.1 0.1 0.1 0.1 0.9 0 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+sphere -30 36 20 4 0.1 0.1 0.1 0.9 0.1 0.1 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+sphere -37 20 45 4 0.1 0.1 0.1 0.1 0.9 0.1 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+
+
+sphere -32 13 -5 3 0.7 0.1 0.1 0.5 0.0 0 0 0.5 0.5 0.5 0.5 0.5 0.5 0
+
+sphere -32 13 5 3 0.7 0.1 0.1 0.5 0.0 0 0 0.5 0.5 0.5 0.5 0.5 0.5 0

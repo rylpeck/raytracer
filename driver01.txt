@@ -1,0 +1,25 @@
+camera 50 50 75 50 50 10 0 1 0 -5
+bounds -3.6 3.6 -3.6 3.6
+res 256 256
+recursionlevel 5
+ambient 0.0 0.0 0.0
+light 10 10 100 1 0.5 0.5 0.5
+light 90 90 100 1 0.5 0.5 0.5
+trans rota 1.0 0.0 0.0 -90
+trans scale 18 18 18
+trans move 50 50 20
+cutoffAngle 90
+load sphere.obj
+trans clear
+trans rota 1.0 0.0 0.0 -90
+trans scale 9 9 9
+trans move 32 68 42 
+cutoffAngle 90
+load sphere1.obj
+trans clear
+trans rota 1.0 0.0 0.0 -90
+trans scale 9 9 9
+trans move 68 32 42 
+cutoffAngle 90
+load sphere2.obj
+
